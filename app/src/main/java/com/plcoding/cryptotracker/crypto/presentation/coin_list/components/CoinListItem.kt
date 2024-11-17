@@ -6,6 +6,8 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
@@ -75,11 +77,9 @@ fun CoinListItem(
                 fontWeight = FontWeight.Bold,
                 color = textColor
             )
-            Text(
-                text = coinUi.name,
-                fontSize = 14.sp,
-                fontWeight = FontWeight.Light,
-                color = textColor
+            Spacer(modifier = Modifier.height(8.dp))
+            PriceChange(
+                change = coinUi.changePercent24Hr,
             )
         }
     }
