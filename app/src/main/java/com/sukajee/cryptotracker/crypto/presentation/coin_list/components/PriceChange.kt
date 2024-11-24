@@ -1,4 +1,4 @@
-package com.plcoding.cryptotracker.crypto.presentation.coin_list.components
+package com.sukajee.cryptotracker.crypto.presentation.coin_list.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -21,9 +21,9 @@ import androidx.compose.ui.tooling.preview.PreviewDynamicColors
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.plcoding.cryptotracker.crypto.presentation.models.DisplayableNumber
-import com.plcoding.cryptotracker.ui.theme.CryptoTrackerTheme
-import com.plcoding.cryptotracker.ui.theme.greenBackground
+import com.sukajee.cryptotracker.crypto.presentation.models.DisplayableNumber
+import com.sukajee.cryptotracker.ui.theme.CryptoTrackerTheme
+import com.sukajee.cryptotracker.ui.theme.greenBackground
 
 @Composable
 fun PriceChange(
