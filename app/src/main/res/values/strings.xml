@@ -6,4 +6,7 @@
     <string name="server_error">Something went wrong. Please try again.</string>
     <string name="serialization_error">There is some error on our part parsing the data.</string>
     <string name="unknown_error">Something went wrong. Please try again later.</string>
+    <string name="market_cap">Market Cap</string>
+    <string name="price">Price</string>
+    <string name="change_last_24hr">Change Last 24Hr</string>
 </resources>
