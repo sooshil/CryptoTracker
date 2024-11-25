@@ -1,4 +1,4 @@
-package com.sukajee.cryptotracker.util
+package com.sukajee.cryptotracker.core.domain.util
 
 typealias DomainError = Error
 

@@ -1,4 +1,4 @@
-package com.sukajee.cryptotracker.util
+package com.sukajee.cryptotracker.core.presentation.util
 
 import com.sukajee.cryptotracker.R
 

@@ -3,7 +3,7 @@ package com.sukajee.cryptotracker.crypto.presentation.models
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
 import com.sukajee.cryptotracker.crypto.domain.Coin
-import com.sukajee.cryptotracker.util.getDrawableIdForCoin
+import com.sukajee.cryptotracker.core.presentation.util.getDrawableIdForCoin
 import java.util.Locale
 
 data class CoinUi(
